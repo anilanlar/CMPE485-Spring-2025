@@ -560,6 +560,7 @@ GameObject:
   - component: {fileID: 1649686306}
   - component: {fileID: 1649686301}
   - component: {fileID: 1649686307}
+  - component: {fileID: 1649686308}
   m_Layer: 0
   m_Name: MoveableObjectBlue
   m_TagString: Untagged
@@ -693,6 +694,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+--- !u!114 &1649686308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1649686300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3ad81678cabf4ccd880bc737e850b5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rb: {fileID: 1649686301}
+  forceDirection: {x: 0, y: 0, z: 10}
+  forceAmount: 5
 --- !u!1 &2040185005
 GameObject:
   m_ObjectHideFlags: 0
@@ -707,6 +723,7 @@ GameObject:
   - component: {fileID: 2040185006}
   - component: {fileID: 2040185011}
   - component: {fileID: 2040185012}
+  - component: {fileID: 2040185013}
   m_Layer: 0
   m_Name: MoveableObjectRed
   m_TagString: Untagged
@@ -840,6 +857,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+--- !u!114 &2040185013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2040185005}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3ad81678cabf4ccd880bc737e850b5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rb: {fileID: 2040185006}
+  forceDirection: {x: 0, y: 0, z: -5}
+  forceAmount: 5
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
