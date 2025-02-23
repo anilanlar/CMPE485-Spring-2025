@@ -229,7 +229,7 @@ GameObject:
   - component: {fileID: 923446023}
   - component: {fileID: 923446022}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: SlopeObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -615,7 +615,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4b74a24284eda41428db69440522e080, type: 2}
+  - {fileID: 2100000, guid: 220ed1531255741bb882c4ffc58a9501, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
